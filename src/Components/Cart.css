@@ -1,0 +1,21 @@
+.all-products-in-cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cart-empty-msg {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+.pay-btn {
+  height: 30px;
+  width: 100px;
+  background-color: darkgreen;
+  border: none;
+  position: fixed;
+  right: 10px;
+  border-radius: 15px;
+  font-size: small;
+}
